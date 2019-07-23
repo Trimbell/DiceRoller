@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
         val diceText = findViewById<TextView>(R.id.dice_text)
         val diceImage1: ImageView = findViewById(R.id.dice_image_1)
         val diceImage2: ImageView = findViewById(R.id.dice_image_2)
-        diceText.text = getString(R.string.roll_info, diceNum1 + diceNum2)
+        diceText.text = getString(R.string.roll_info, diceNum1 + diceNum2, diceNum1, diceNum2)
         diceImage1.setImageResource(drawableResource1)
         diceImage2.setImageResource(drawableResource2)
     }
