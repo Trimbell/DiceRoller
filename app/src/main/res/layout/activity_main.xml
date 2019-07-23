@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="center_vertical"
+    android:gravity="center_horizontal"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -12,20 +13,25 @@
         android:id="@+id/dice_image_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
         android:src="@drawable/empty_dice" />
 
     <ImageView
         android:id="@+id/dice_image_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
         android:src="@drawable/empty_dice" />
+
+    <TextView
+        android:id="@+id/dice_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press button to roll"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/roll_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="Roll" />
+        android:text="@string/roll" />
 </LinearLayout>
