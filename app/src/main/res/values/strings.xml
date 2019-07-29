@@ -1,5 +1,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Dice Roller</string>
     <string name="roll">Roll!</string>
-    <string name="roll_info">You rolled %d (%d and %d)</string>
+    <string name="roll_info">Win percentage:  %.01f%%</string>
 </resources>
