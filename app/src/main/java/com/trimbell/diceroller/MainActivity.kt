@@ -1,6 +1,5 @@
 package com.trimbell.diceroller
 
-import android.media.Image
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -26,7 +25,6 @@ class MainActivity : AppCompatActivity() {
                 if (rollDie(diceImage1) == rollDie(diceImage2)) count++
             }
             diceText.text = getString(R.string.roll_info, (count / rolls.toFloat() * 100f))
-//            diceText.text = "${0= * 100f}"
         }
     }
 
